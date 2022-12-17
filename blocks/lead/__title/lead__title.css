@@ -7,4 +7,6 @@
   /* or 110% */
   color: #FFFFFF;
   text-align: center;
+  margin: 0;
+  padding: 0 16px 16px;
 }
