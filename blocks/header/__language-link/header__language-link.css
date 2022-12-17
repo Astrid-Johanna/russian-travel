@@ -1,4 +1,13 @@
 .header__language-link {
-    text-size: ;
-    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 18px;
 }
