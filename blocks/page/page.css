@@ -2,3 +2,9 @@
   background-color: #2A2C2F;
   padding: 16px 0 0;
 }
+
+@media (min-width: 768px) {
+  .page {
+    padding: 28px 0 0;
+  }
+}
