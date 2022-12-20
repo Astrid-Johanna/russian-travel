@@ -4,9 +4,16 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  /* or 125% */
   color: #FFFFFF;
   text-align: center;
   margin: 0;
   padding: 0 16px 248px;
+}
+
+@media (min-width: 768px) {
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    padding: 0 64px 544px;
+  }
 }

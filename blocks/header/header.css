@@ -1,6 +1,12 @@
 .header {
-    padding: 0 16px 48px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 0 16px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+    .header {
+      padding: 0 24px 48px;
+    }
 }
