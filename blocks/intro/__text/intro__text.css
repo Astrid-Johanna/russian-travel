@@ -9,3 +9,7 @@
 /* or 26px */
   color: #FFFFFF;
 }
+
+@media (min-width: 768px) {
+  padding: 0 24px 33px;
+}

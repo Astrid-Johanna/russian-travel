@@ -30,6 +30,7 @@
         <h2 class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </h2>
+        <img class="lead__image" src="./images/sprint-3-images/lead-polka.jpg" alt="фото спящей девушки на нижней боковой поке в поезде, на фотографии написован маршрут от Пскова до Улан-Удэ">
         <p class="lead__caption">
           ваша полка — верхняя
         </p>
@@ -75,39 +76,57 @@
       </section>
       <section class="places">
         <div class="place">
-          <h2 class="place__title">Куршская коса</h2>
-          <p class="place__url-heading">
-            URL
-          </p>
-          <a href="http://park-kosa.ru" class="place__link smooth">
-            park-kosa.ru
-          </a>
-          <img class="place__image" src="./images/sprint-3-images/place-kosa.jpg" alt="фото берега Курской косы">
-          <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона 
+          <div class="place__block">
+            <h2 class="place__title">Куршская коса</h2>
+            <div class="website">
+              <p class="place__url-heading">
+                URL
+              </p>
+              <a href="http://park-kosa.ru" class="place__link smooth">
+                park-kosa.ru
+              </a>
+            </div>
+          </div>
+          <div class="place__block">
+           <img class="place__image" src="./images/sprint-3-images/place-kosa.jpg" alt="фото берега Курской косы">
+           <div class="place__text">
+             <p class="place__paragraph">
+               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона 
             на краю российского анклава.
-          </p>
-          <p class="place__paragraph">На этом Калининградская область не заканчивается. 
+             </p>
+             <p class="place__paragraph">
+               На этом Калининградская область не заканчивается. 
             Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
-          </p>
+             </p>
+           </div>
+          </div>
         </div>
         <div class="place">
-          <h2 class="place__title">
-            Кольский
-          </h2>
-          <p class="place__url-heading">
-            URL
-          </p>
-          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link smooth">
-            National Geographic
-          </a>
-          <img class="place__image" src="./images/sprint-3-images/place-kolsky.jpg" alt="фото Кольск вид на заснеженные горы">
-          <p class="place__paragraph">
-            Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
-          </p>
-          <p class="place__paragraph">
-            Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
+          <div class="place__block">
+            <h2 class="place__title">
+              Кольский
+            </h2>
+            <div class="website">
+              <p class="place__url-heading">
+                URL
+              </p>
+              <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link smooth">
+                National Geographic
+              </a>
+            </div>
+          </div>
+          <div class="place__block">
+            <img class="place__image" src="./images/sprint-3-images/place-kolsky.jpg" alt="фото Кольск вид на заснеженные горы">
+            <div class="place__text">
+              <p class="place__paragraph">
+                Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
+              </p>
+              <p class="place__paragraph">
+                Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
 в Мурманск.
-          </p>
+              </p>
+            </div>
+          </div>
         </div>
         <div class="place">
           <h2 class="place__title">
@@ -170,12 +189,15 @@
         </div>
       </section>
       <section class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__title cover__overlay">
-          До Байкала<br>«на собаках»
-        </a>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-        </p>
+        <!--<div class="cover__text">-->
+          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__title">
+            До Байкала<br>«на собаках»
+          </a>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе<br>— путешествие от столицы до Байкала<br>на электричках.
+          </p>
+        <!--</div>-->
+        <div class="cover__overlay"></div>
       </section>
     </main>
     <footer class="footer">

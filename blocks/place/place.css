@@ -1,3 +1,10 @@
 .place {
     padding-bottom: 25px;
 }
+
+@media (min-width: 768) {
+    .place {
+      padding-bottom: 73px;
+    }
+    
+}

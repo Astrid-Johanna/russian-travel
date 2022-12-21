@@ -9,3 +9,9 @@
   /* or 150% */
   color: #FFFFFF;
 }
+
+@media (min-width: 768px) {
+  .into__list {
+    padding: 0 24px 88px;
+  }
+}

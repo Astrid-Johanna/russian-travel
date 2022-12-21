@@ -9,3 +9,10 @@
  text-decoration-line: underline;
  color: #FFFFFF;
 }
+
+@media (min-widht: 768px) {
+  .place__link {
+    padding: 0;
+  }
+    
+}

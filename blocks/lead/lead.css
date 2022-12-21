@@ -1,13 +1,15 @@
 .lead {
-  background-image: url(../../images/sprint-3-images/lead-polka.jpg);
+  /*background-image: url(../../images/sprint-3-images/lead-polka.jpg);
   background-size: 100%;
-  background-position: 0 184px;
+  background-position: bottom 22px left 0;
   background-repeat: no-repeat;
-  min-height: 406px;
+  min-height: 100%;*/
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
   .lead {
-    background-position: 0 360px;
+    /* min-height: 862px; */
   }
 }
