@@ -2,6 +2,8 @@
  height: 320px;
  width: 320px;
  padding-bottom: 7px;
+ margin: 0 auto;
+ display: block;
 }
 
 @media (min-width: 768px) {

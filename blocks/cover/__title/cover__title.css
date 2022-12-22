@@ -12,3 +12,10 @@
   padding: 7vw 5vw 5vw;
   z-index: 2;
 }
+
+@media (min-width: 768px) {
+  .cover__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+}

@@ -6,9 +6,6 @@
   position: absolute;
   right: 0;
   bottom: 0;
-}
-.cover__overlay:hover {
- opacity: 0.8;
- 
- z-index: 1;
+  z-index: 1;
+  transition: opacity ease .3s;
 }

@@ -3,7 +3,8 @@
   background-color: #2A2C2F;
   padding: 16px 0 0;
   overflow-x: hidden;
-  text-rendering: optimizeLegibility; 
+  text-rendering: optimizeLegibility;
+  font-family: 'Inter', sans-serif; 
 }
 
 @media (min-width: 768px) {
