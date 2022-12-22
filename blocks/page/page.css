@@ -1,7 +1,9 @@
 .page {
+  max-width: 1440px;
   background-color: #2A2C2F;
   padding: 16px 0 0;
   overflow-x: hidden;
+  text-rendering: optimizeLegibility; 
 }
 
 @media (min-width: 768px) {

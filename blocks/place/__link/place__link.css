@@ -10,7 +10,7 @@
  color: #FFFFFF;
 }
 
-@media (min-widht: 768px) {
+@media (min-width: 768px) {
   .place__link {
     padding: 0;
   }
