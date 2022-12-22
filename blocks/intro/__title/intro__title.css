@@ -11,9 +11,22 @@
 
 @media (min-width: 768px) {
   .intro__title {
-    padding: 0 24px 40px;
+    padding-left: 24px;
     font-size: 54px;
     line-height: 58px;
-  }
-  
+  } 
 }
+
+@media (min-width: 1024px) {
+  .intro__title {
+    padding-left: 48px;
+  } 
+}
+
+@media (min-width: 1280px) {
+  .intro__title {
+    padding: 0 148px 40px;
+  } 
+}
+
+

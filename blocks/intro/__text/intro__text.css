@@ -11,5 +11,20 @@
 }
 
 @media (min-width: 768px) {
-  padding: 0 24px 33px;
+  .intro__text{
+    padding: 0 24px 33px;
+  } 
 }
+
+@media (min-width: 1024px) {
+  .intro__text{
+    padding: 0 286px 33px 48px;
+  } 
+}
+
+@media (min-width: 1280px) {
+  .intro__text{
+    padding: 0 442px 33px 148px;
+  } 
+}
+

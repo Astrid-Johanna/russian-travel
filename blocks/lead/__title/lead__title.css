@@ -17,3 +17,13 @@
     padding: 0 24px 32px;
   } 
 }
+@media (min-width: 1024px) {
+  .lead__title  {
+    padding: 0 152px 32px;
+  } 
+}
+@media (min-width: 1280px) {
+  .lead__title  {
+    padding: 0 280px 32px;
+  } 
+}

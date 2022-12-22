@@ -1,4 +1,11 @@
-.lead__image {
-  width: ;
-  height: ;
+@media (min-width: 1024px) {
+  .lead__image {
+    padding: 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__image {
+    padding: 0 148px;
+  }
 }

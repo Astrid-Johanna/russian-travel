@@ -22,3 +22,10 @@
     column-gap: 14px;
   }
 }
+
+@media (min-width: 1280px) {
+  .photo-grid {
+    row-gap: 16px;
+    column-gap: 16px;
+  }
+}

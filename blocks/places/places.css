@@ -7,3 +7,15 @@
     padding: 88px 24px 17px;
   }
 }
+
+@media (min-width: 1024px) {
+  .places {
+    padding: 92px 48px 12px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    padding: 92px 148px 12px;
+  }
+}
