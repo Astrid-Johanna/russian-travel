@@ -1,8 +1,0 @@
-@media (min-width: 768px) {
-  .place__block {
-    display: flex;
-    row-gap: 48px;
-    column-gap: 28px;
-  } 
-}
- 

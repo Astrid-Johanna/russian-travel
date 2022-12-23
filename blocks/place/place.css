@@ -3,12 +3,12 @@
 }
 
 @media (min-width: 768px) {
-    .place {
-      display: grid;
-      grid-column-gap: 28px;
-      grid-row-gap: 48px;
-      padding-bottom: 73px;
-    }
+  .place {
+    display: grid;
+    grid-column-gap: 28px;
+    grid-row-gap: 48px;
+    padding-bottom: 73px;
+  }
     
 }
 
