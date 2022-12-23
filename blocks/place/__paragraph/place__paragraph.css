@@ -9,3 +9,9 @@
   /* or 26px */
   color: #FFFFFF;
 }
+
+@media (min-width: 768px) {
+  .place__paragraph {
+    padding: 0;
+  } 
+}

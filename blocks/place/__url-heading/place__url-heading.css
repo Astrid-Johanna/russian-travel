@@ -10,3 +10,11 @@
  letter-spacing: 2px;
  color: #AAAAAA;
 }
+
+@media (min-width: 768px) {
+  .place__url-heading {
+    padding: 0 0 12px;
+    margin-top: auto;
+  }
+    
+}

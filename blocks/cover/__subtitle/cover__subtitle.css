@@ -8,4 +8,16 @@
   /* or 114% */
   text-align: center;
   color: #FFFFFF;
+  z-index: 2;
+  max-width: 288px;
 }
+
+@media (min-width: 768px) {
+  .cover__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+  }
+}
+ 
+  

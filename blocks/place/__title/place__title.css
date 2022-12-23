@@ -6,6 +6,33 @@
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
-/* identical to box height, or 109% */
   color: #FFFFFF;
+  
+}
+
+@media (min-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    padding: 0;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 340px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__title {
+    font-size: 72px;
+    line-height: 76px;
+    max-width: 440px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__title {
+    max-width: 460px;
+  }
 }
