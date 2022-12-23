@@ -1,4 +1,4 @@
-.into__list {
+.intro__list {
   list-style: none;
   padding: 0 16px 24px;
   font-family: 'Inter';
@@ -8,6 +8,7 @@
   line-height: 18px;
   /* or 150% */
   color: #FFFFFF;
+  min-width: 100vw;
 }
 
 @media (min-width: 768px) {
