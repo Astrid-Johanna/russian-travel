@@ -6,11 +6,7 @@
   line-height: 20px;
   text-decoration: none;
   color: #FFFFFF;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  column-gap: 18px;
-  list-style: none;
+  
 }
 
 @media (min-width: 768px) {
