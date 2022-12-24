@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 26.08px;
   /* or 26px */
   color: #FFFFFF;
 }
@@ -19,7 +19,7 @@
 @media (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
-    line-height: 163%;
+    line-height: 29.34px;
   }
 }
 

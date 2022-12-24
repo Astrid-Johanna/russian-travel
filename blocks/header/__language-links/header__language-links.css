@@ -4,5 +4,11 @@
     display: flex;
     column-gap: 18px;
     list-style: none;
-    margin-bottom: -16px;
+    margin-bottom: -12px;
+}
+
+@media (min-width: 768px) {
+    .header__language-links {
+        margin-bottom: -16px;
+    }
 }
