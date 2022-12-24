@@ -10,7 +10,7 @@
   7. Научиться подключать используемые шрифты локально.
   8. Научиться выкладывать проектную работу на gh-pages.
 
-Ссылка на GitHub Pages: https://github.com/Astrid-Johanna/russian-travel/index.html)
+Ссылка на GitHub Pages: https://astrid-johanna.github.io/russian-travel/
 
 
 

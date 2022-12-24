@@ -2,14 +2,12 @@
   margin: 0;
   list-style: none;
   padding: 0 16px 64px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
-  /* or 150% */
   color: #FFFFFF;
-  min-width: 100vw;
+  min-width: 100%;
   box-sizing: border-box;
 }
 
@@ -21,12 +19,12 @@
 
 @media (min-width: 1024px) {
   .intro__list {
-    padding: 0 286px 92px 48px;
+    padding: 0 0px 92px 48px;
   }
 }
 
 @media (min-width: 1280px) {
   .intro__list {
-    padding: 0 442px 92px 148px;
+    padding: 0 0px 92px 148px;
   }
 }

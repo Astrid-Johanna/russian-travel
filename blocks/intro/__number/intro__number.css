@@ -1,11 +1,9 @@
 .intro__number  {
     list-style: none;
-    padding: 0 0 0 4px;
-    font-family: 'Inter';
+    padding-left: 2px;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     color: #FFFFFF;
 }
