@@ -5,7 +5,7 @@
   
 }
 
-@media (min-width: 786px) {
+@media (min-width: 768px) {
   .footer__links {
     padding: 0;
     display: flex;

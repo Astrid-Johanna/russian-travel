@@ -7,15 +7,16 @@
   line-height: 35px;
   /* or 109% */
   color: #FFFFFF;
-  text-decoration: none;
   text-align: center;
-  padding: 7vw 5vw 5vw;
+  padding: 0vw 0vw 5vw;
   z-index: 2;
+  max-width: 400px;
 }
 
 @media (min-width: 768px) {
   .cover__title {
     font-size: 72px;
     line-height: 76px;
+    max-width: 760px;
   }
 }

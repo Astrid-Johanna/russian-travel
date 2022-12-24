@@ -9,6 +9,7 @@
  /* identical to box height, or 100% */
  letter-spacing: 2px;
  color: #AAAAAA;
+ text-transform: uppercase;
 }
 
 @media (min-width: 768px) {

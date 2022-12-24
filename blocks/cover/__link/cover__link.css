@@ -1,0 +1,10 @@
+.cover__link {
+    text-decoration: none;
+    min-height: 62.5vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
